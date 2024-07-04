@@ -267,28 +267,35 @@ public class Main {
         /*
         17 - Write a program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered.
          */
-//        int number;
-//        int max = 0;
-//        int min = 0;
+// System.out.println("Enter integers (type 0 to finish):");
+//        System.out.print("");
+//        int number = input.nextInt();
 //
-//        System.out.println("Enter integers (type 0 to finish):");
-//        while (true) {
-//            System.out.print("");
-//            number = input.nextInt();
+//        int max = number;
+//        int min = number;
 //
-//            if (number == 0) {
-//                break;
-//            }
-//            if (number > max) {
-//                max = number;
-//            }
-//            if (number < min) {
-//                min = number;
+//        if (number != 0) {
+//            while (true) {
+//                System.out.print("");
+//                number = input.nextInt();
+//
+//                if (number == 0) {
+//                    break;
+//                }
+//
+//                if (number > max) {
+//                    max = number;
+//                }
+//                if (number < min) {
+//                    min = number;
+//                }
 //            }
 //
+//            System.out.println("Largest Number: " + max);
+//            System.out.println("Smallest Number: " + min);
+//        }else {
+//            System.out.println("bye :)");
 //        }
-//        System.out.println("Largest Number : " + max);
-//        System.out.println("Smallest Number : " + min);
 
 
         /*
