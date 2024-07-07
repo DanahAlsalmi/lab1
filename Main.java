@@ -193,7 +193,7 @@ public class Main {
         /*
         13. Write a Java program that accepts four integers from the user and prints equal if all four are equal, and not equal otherwise.
          */
-//        System.out.print("Input first number:");
+System.out.print("Input first number:");
 //        int num1 = input.nextInt();
 //        System.out.print("Input second number:");
 //        int num2 = input.nextInt();
@@ -202,7 +202,7 @@ public class Main {
 //        System.out.print("Input fourth number:");
 //        int num4 = input.nextInt();
 //
-//        if (num1 == num2 && num3 == num4) {
+//        if (num1 == num2 && num3 == num4 && num1==num3) {
 //            System.out.println("Numbers are equal!");
 //        } else {
 //            System.out.println("Numbers are not equal!");
